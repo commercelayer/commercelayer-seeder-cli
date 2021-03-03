@@ -25,7 +25,7 @@
     "lint": "tslint -p . --fix",
     "build": "npm run clean:some && tsc -p . && tsc-alias",
     "global": "npm i -g",
-    "clean:some": "rm -rf ./lib ./docs",
+    "clean:some": "rm -rf ./lib",
     "clean:all": "rm -rf ./node_modules ./package-lock.json ./lib ./docs",
     "refresh": "npm run clean:all && npm install",
     "tscov": "tscov --min-coverage 90",

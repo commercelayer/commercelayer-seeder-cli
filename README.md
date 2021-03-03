@@ -13,8 +13,6 @@
   - [Installation](#installation)
   - [Import](#import)
 - [Usage](#usage)
-  - [The seeder function](#the-seeder-function)
-  - [The returned object](#the-returned-object)
 - [Available business models](#available-business-models)
 
 ## How it works
@@ -44,7 +42,7 @@ yarn global add @commercelayer/commercelayer-seeder-cli
 - `-i, --clientId <your-client-id>` — your Commerce Layer application client ID (required)
 - `-s, --clientSecret <your-client-secret>` — your Commerce Layer application client secret (required)
 - `-e, --endpoint <https://yourdomain.commercelayer.io>` — your Commerce Layer organization endpoint (required)
-- `-b, --businessModel <business-model>` — the kind of business model you want to import (optional / default: `multi_market` / choose among [this list](#available-business-models))
+- `-b, --businessModel <business-model>` — the kind of business model you want to import (optional / default: `multi_market` choose among [this list](#available-business-models))
 - `-m, --maxItems <max-items>` — the maximum number of SKUs that will be imported (optional / default: all)
 - `-u, --resourcesUrl <resources-url>` — the resources URL or local path (optional / default: [our seeds directory](https://data.commercelayer.app/seed))
 
