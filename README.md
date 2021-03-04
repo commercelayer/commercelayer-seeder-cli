@@ -45,6 +45,8 @@ commercelayer-seeder -i your-client-id -s your-client-secret -e https://<yourdom
 
 ## Usage
 
+Before you proceed, learn how to get your Commerce Layer credentials (`clientID` and `clientSecret`) [here](https://docs.commercelayer.io/api/getting-started#get-your-credentials).
+
 ### The seeder options
 
 - `-i, --clientId <your-client-id>` — your Commerce Layer application client ID (required)
