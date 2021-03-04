@@ -67,20 +67,6 @@ Commerce Layer provides a set of predefined business models so that you can choo
 - [Multi-market](https://data.commercelayer.app/seed/multi_market.json) — `businessModel: 'multi_market'`
 - Custom — `businessModel: 'custom'`
 
-## Contributors guide
-
-1. Fork this repository ([learn how to do it](https://help.github.com/articles/fork-a-repo)).
-
-2. Clone the forked repository like so:
-
-```bash
-git clone https://github.com/<your username>/commercelayer-seeder-cli.git && cd commercelayer-seeder-cli
-```
-
-3. Make your changes and create a pull request ([learn how to do it](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)).
-
-4. Someone will attend to your pull request and provide some feedback.
-
 ## Need help?
 
 1. Request an invite to join [Commerce Layer's Slack community](https://slack.sanity.io).
