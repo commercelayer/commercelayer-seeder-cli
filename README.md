@@ -14,6 +14,7 @@
   - [Import](#import)
 - [Usage](#usage)
 - [Available business models](#available-business-models)
+- [Contributors guide](#contributors-guide)
 
 ## How it works
 
@@ -45,8 +46,6 @@ commercelayer-seeder -i your-client-id -s your-client-secret -e https://<yourdom
 
 ## Usage
 
-Before you proceed, learn how to get your Commerce Layer credentials (`clientID` and `clientSecret`) [here](https://docs.commercelayer.io/api/getting-started#get-your-credentials).
-
 ### The seeder options
 
 - `-i, --clientId <your-client-id>` — your Commerce Layer application client ID (required)
@@ -56,11 +55,11 @@ Before you proceed, learn how to get your Commerce Layer credentials (`clientID`
 - `-m, --maxItems <max-items>` — the maximum number of SKUs that will be imported (optional / default: all)
 - `-u, --resourcesUrl <resources-url>` — the resources URL or local path (optional / default: [our seeds directory](https://data.commercelayer.app/seed))
 
-![Product import into Commerce Layer](docs/images/skus-imported-commerce-layer.jpg?raw=true 'Product import into Commerce Layer')
+![Product import into Commerce Layer](https://raw.githubusercontent.com/commercelayer/commercelayer-seeder-cli/main/docs/images/skus-imported-commerce-layer.jpg 'Product import into Commerce Layer')
 
-![Prices import into Commerce Layer](docs/images/prices-imported-commerce-layer.jpg?raw=true 'Prices import into Commerce Layer')
+![Prices import into Commerce Layer](https://raw.githubusercontent.com/commercelayer/commercelayer-seeder-cli/main/docs/images/prices-imported-commerce-layer.jpg 'Prices import into Commerce Layer')
 
-![Inventory import into Commerce Layer](docs/images/inventory-imported-commerce-layer.jpg?raw=true 'Inventory import into Commerce Layer')
+![Inventory import into Commerce Layer](https://raw.githubusercontent.com/commercelayer/commercelayer-seeder-cli/main/docs/images/inventory-imported-commerce-layer.jpg 'Inventory import into Commerce Layer')
 
 ## Available business models
 
@@ -68,6 +67,20 @@ Commerce Layer provides a set of predefined business models so that you can choo
 
 - [Multi-market](https://data.commercelayer.app/seed/multi_market.json) — `businessModel: 'multi_market'`
 - Custom — `businessModel: 'custom'`
+
+## Contributors guide
+
+1. Fork this repository ([learn how to do it](https://help.github.com/articles/fork-a-repo)).
+
+2. Clone the forked repository like so:
+
+```bash
+git clone https://github.com/<your username>/commercelayer-seeder-cli.git && cd commercelayer-seeder-cli
+```
+
+3. Make your changes and create a pull request ([learn how to do it](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)).
+
+4. Someone will attend to your pull request and provide some feedback.
 
 ## Need help?
 
