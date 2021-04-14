@@ -44,6 +44,8 @@ Run the command below to import a [set of products](https://data.commercelayer.a
 commercelayer-seeder -i your-client-id -s your-client-secret -e https://<yourdomain>.commercelayer.io
 ```
 
+> If you are using a Developer plan, please remember to set `-m --maxItems` to 100.
+
 ## Usage
 
 ### The seeder options
